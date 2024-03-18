@@ -65,6 +65,8 @@ internal object NetworkModule {
             .build()
     }
 
+    // this is a comment
+
     /**
      * Since we're displaying SVGs in the app, Coil needs an ImageLoader which supports this
      * format. During Coil's initialization it will call `applicationContext.newImageLoader()` to
